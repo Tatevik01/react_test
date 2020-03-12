@@ -1,0 +1,23 @@
+.tabItemContainer {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.tabItemContainer:last-child {
+    margin-bottom: 0px;
+}
+
+.tabItemContainer > div {
+    display: flex;
+    flex-direction: column;
+    margin-right: 10px;
+}
+
+.tabItemContainer > div:last-child {
+    margin-right: 0px;
+}
+
+.tabItemContainer > div > h3 {
+    margin-bottom: 10px;
+    color: #3f51b5;
+}

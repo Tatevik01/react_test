@@ -1,0 +1,34 @@
+.modalContainer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #9e9e9e8c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modalContent {
+    width: 40%;
+    height: 60vh;
+    background-color: white;
+    box-shadow: 1px 1px 5px 1px #6b5e5e;
+    padding: 10px;
+    overflow: auto;
+}
+
+.modalActions {
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.modalActions > button {
+    margin-right: 10px;
+}
+
+.modalActions > button:last-child {
+    margin-right: 0px;
+}
